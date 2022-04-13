@@ -12,6 +12,7 @@ def add_time(time, dur, daysmsg=''):
     result[1] = result[1] % 60
     days = int(result[0] / 24)
     result[0] = result[0] % 24
+    
     am = ' AM'
     if int(result[0]/12) > 0:
         am = ' PM'
